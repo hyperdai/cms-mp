@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/schedule/main",
+    "pages/me/main",
+    "pages/index/main",
+
+    "pages/editInfo/main",
+    "pages/advice/main",
+    "pages/ad/main",
+    "pages/about/main",
+
+    "pages/jietu/main",
+    "pages/form/main",
+
+    "pages/oauth/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "班级云助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [{
+            "pagePath": "pages/index/main",
+            "text": "任务",
+            "iconPath": "static/images/home.png",
+            "selectedIconPath": "static/images/home-active.png"
+        },{
+          "pagePath": "pages/schedule/main",
+          "text": "课程表",
+          "iconPath": "static/images/schedule.png",
+          "selectedIconPath": "static/images/schedule-active.png"
+      },{
+          "pagePath": "pages/me/main",
+          "text": "我",
+          "iconPath": "static/images/me.png",
+          "selectedIconPath": "static/images/me-active.png"
+      }
+    ]
+  }
+}
